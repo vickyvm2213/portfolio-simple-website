@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section-one__name {
+    font-size: 60px;
+}
+
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 25px;
+}
+
+.section-one__desc,
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    margin-top: 25px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five a {
+    color: aqua;
+}
+
+.section-three ul,
+.section-four ul {
+    list-style: none;
+
+}
+
+.section-three {
+    background-color: #6462FD;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+
+}
+
+.section-four {
+    background-color: #FE7517;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.content-from__input,.content-from__textarea,.content-from__submit {
+    margin-top: 10px;
+}
+.content-from__input {
+    border: none;
+    border-bottom: solid black 1px;
+    padding: 10px;
+}
+.content-from {
+    margin-top: 20px ;
+}
+.content-from__submit {
+    padding-left:20px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top:10px ;
+    background-color: #FE7517;
+    border: none;
+}
